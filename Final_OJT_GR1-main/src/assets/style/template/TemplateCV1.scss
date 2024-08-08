@@ -1,0 +1,136 @@
+.cv-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  margin: auto;
+  border: solid 1px #000;
+  font-family: Arial, sans-serif;
+}
+
+.left {
+  background-color: #3940d0;
+  padding: 10px;
+  color: #fff;
+  width: calc(100% / 3);
+}
+
+.right {
+  background-color: #fff;
+  padding: 10px;
+  color: #6a6a6f;
+  width: calc(100% - (100% / 3));
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 2em;
+  margin: 0;
+}
+
+.title {
+  margin: 0;
+}
+
+.contact {
+  text-align: right;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin: 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  width: 50%;
+}
+
+.skill-bar {
+  height: 10px;
+  background: #ccc;
+  margin: 5px 0;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  background: #007bff;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bottom-right {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #959599;
+}
+
+.bottom-left {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.PDF-button {
+  max-width: 800px;
+  display: flex;
+  justify-content: right;
+  margin: auto;
+}
+
+.download-btn {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}

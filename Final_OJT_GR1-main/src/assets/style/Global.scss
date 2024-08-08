@@ -1,0 +1,144 @@
+@import "../style/Pages/AccountInfo.scss";
+@import "../style/Pages/Admin.scss";
+@import "../style/Pages/ChangePassword.scss";
+@import "../style/Pages/EmployeeManagement.scss";
+@import "../style/Pages/Footer.scss";
+@import "../style/Pages/ForgetPassword.scss";
+@import "../style/Pages/Header.scss";
+@import "../style/Pages/Login.module.scss";
+@import "../style/Pages/LogoutButton.scss";
+@import "../style/Pages/PageCV.scss";
+@import "../style/Pages/PositionManagement.scss";
+@import "../style/Pages/ProjectManagement.scss";
+@import "../style/Pages/ResetPassword.scss";
+@import "../style/Pages/Sidebar.scss";
+@import "../style/Pages/TechnologyManagement.scss";
+
+@import "../style/template/templateCV1.scss";
+@import "../style/template/templateCV2.scss";
+
+body {
+  margin: 0;
+}
+
+.text-align-start {
+  text-align: start !important;
+}
+
+.btn {
+  font-weight: 500;
+  color: white;
+  margin-right: 5px;
+}
+
+.btn-length {
+  font-weight: 500;
+  color: black;
+  margin-right: 5px;
+}
+
+.mb-3 {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.inp-length {
+  width: 100%;
+}
+
+.ant-input-affix-wrapper {
+  margin-left: 5px;
+}
+
+.ant-input-group-addon {
+  display: none !important;
+}
+
+.ant-select-arrow {
+  display: block !important;
+}
+
+
+.ant-form-item-label {
+  width: 210px;
+  text-align: left !important;
+}
+
+.status-active {
+  color: green;
+  font-weight: 700;
+}
+
+.status-inactive {
+  color: red;
+  font-weight: 700;
+}
+
+.status-involved {
+  color: blue;
+  font-weight: 700;
+}
+
+.ant-table-cell {
+  text-align: center !important;
+}
+
+.ant-select {
+  width: 100%;
+}
+
+.length-cell {
+  width: 25%;
+}
+
+.project-detail {
+  display: flex;
+}
+
+.project-detail-item {
+  width: 250px;
+}
+
+.detail-button {
+  background-color: #f6a206;
+  border-color: #f6a206;
+  color: #fff;
+  font-weight: 500;
+
+  &:hover {
+    background-color: #ecd045 !important;
+    border-color: #ecd045;
+  }
+}
+
+.edit-button {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: #fff;
+  font-weight: 500;
+
+  &:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+  }
+}
+
+.delete-button {
+  background-color: #ff4d4f !important;
+  border-color: #ff4d4f !important;
+  color: #fff !important;
+  margin-left: 5px;
+  font-weight: 500;
+
+  &:hover {
+    background-color: #ff7875;
+    border-color: #ff7875;
+  }
+}

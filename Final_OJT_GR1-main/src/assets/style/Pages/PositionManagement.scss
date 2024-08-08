@@ -1,0 +1,19 @@
+// PositionManagement.scss
+
+.position-management {
+  .ant-pagination.ant-table-pagination.ant-table-pagination-right.css-dev-only-do-not-override-p8b6i {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    color: white;
+    background: rgba(255, 255, 255, 0) !important;
+    padding: 16px !important;
+    box-shadow: 0 -2px 8px rgb(117, 23, 23) !important;
+    z-index: 1 !important;
+  }
+
+  .ant-table {
+    margin-bottom: 80px; // Để đảm bảo không bị che bởi thanh phân trang cố định
+  }
+}

@@ -1,0 +1,51 @@
+.logout-button {
+  position: relative;
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Ensures icon and text are centered */
+  width: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+
+  &.collapsed {
+    justify-content: center;
+  }
+
+  &::before {
+    content: '';
+    background: linear-gradient(135deg, #6253E1, #04BEFE);
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+    transition: all 0.3s;
+    border-radius: 4px;
+    z-index: -1;
+  }
+
+  &:hover::before {
+    opacity: 0.5;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s;
+
+    .anticon,
+    span {
+      color: #fff;
+      transition: all 0.3s;
+    }
+  }
+
+  .anticon,
+  span {
+    transition: all 0.3s;
+  }
+}
